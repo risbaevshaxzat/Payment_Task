@@ -1,4 +1,4 @@
-package com.example.lesson_2_task_2.repository;
+package uz.pdp.payment_task.repo;
 
 import com.example.lesson_2_task_2.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;

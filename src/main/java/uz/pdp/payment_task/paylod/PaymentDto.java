@@ -1,6 +1,5 @@
-package com.example.lesson_2_task_2.payload;
+package uz.pdp.payment_task.paylod;
 
-import jakarta.persistence.OneToMany;
 import lombok.Data;
 
 import java.util.List;

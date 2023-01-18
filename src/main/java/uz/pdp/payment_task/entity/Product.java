@@ -1,6 +1,5 @@
-package com.example.lesson_2_task_2.entity;
+package uz.pdp.payment_task.entity;
 
-import com.example.lesson_2_task_2.entity.template.AbsEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

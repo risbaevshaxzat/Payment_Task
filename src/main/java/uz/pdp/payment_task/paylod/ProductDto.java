@@ -1,4 +1,4 @@
-package com.example.lesson_2_task_2.payload;
+package uz.pdp.payment_task.paylod;
 
 import jakarta.persistence.OneToOne;
 import lombok.Data;

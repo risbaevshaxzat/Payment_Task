@@ -1,10 +1,11 @@
-package com.example.lesson_2_task_2.repository;
+package uz.pdp.payment_task.repo;
 
-import com.example.lesson_2_task_2.entity.PurchaseDetail;
+
+import org.hibernate.boot.archive.scan.spi.PackageDescriptor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-
-public interface PurchaseDetailRepository extends JpaRepository<PurchaseDetail, Integer> {
+@RepositoryRestResource(path = "packageDescriptor")
+public interface PurchaseDetailRepository extends JpaRepository<PackageDescriptor, Integer> {
 
 }
